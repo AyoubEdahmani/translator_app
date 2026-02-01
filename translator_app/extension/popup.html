@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darija AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Cairo:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <div class="header">
+            <img src="icon.png" alt="Logo" class="logo">
+            <div class="title-group">
+                <h1>Darija AI</h1>
+                <span>English ➡ Darija</span>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <label>🇺🇸 English Text</label>
+            <textarea id="inputText" placeholder="Type here to translate..."></textarea>
+        </div>
+
+        <button id="translateBtn">Translate Now </button>
+
+        <div id="result" class="result-box" style="display:none;"></div>
+
+        <div id="error" class="error-box" style="display:none;"></div>
+        
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
